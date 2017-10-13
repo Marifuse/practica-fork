@@ -1,0 +1,53 @@
+/*Holo pololo XD*/
+.celeste{
+  background-color: #2ECCFA;
+}
+h1,a{
+  color: #FF0040;
+  text-decoration: none;
+}
+.verdeagua{
+  background-color: #2EFE9A;
+  display: inline-block;
+}
+/*ol li{
+  color: blue;
+}*/
+li:first-of-type + li{
+  color: white;
+}
+li:first-child{
+  color: #B40431;
+}
+li:last-child{
+  color: blue;
+}
+  /*Llamar a los hijos de ol: firts-child (Primero)
+                            li:first-of-type + li (hijo del medio)
+                            last-child (último)*/
+/*Se pueden tener id pero los nombres no se pueden repetir, y se deben llamar con comillas en el HTML, para que en el
+CSS se llame con el # y el nombre que le pusimos a nuestro id*/
+.caja{
+  background-color: #F5A9F2;
+  padding: 1em;
+  border: 1em solid black;
+}
+.cajados{
+  background-color: red;
+  padding-top: 1em;
+  margin-top: 1em;
+  border: 1em groove;
+  visibility: hidden;
+}
+h2{
+  text-align: center;
+}
+.cajatres{
+  background-color: blue;
+  padding-top: 1em;
+  margin-top: 1em;
+  border: 1em groove;
+  }
+  body{
+    margin: 0;
+  }
